@@ -1,0 +1,49 @@
+/* src/components/ItemsList/ItemsList.css */
+.items-list {
+    border-right: 1px solid #e5e7eb;
+    overflow-y: auto;
+    max-height: 80vh;
+  }
+  
+  .items-list ul {
+    list-style: none;
+  }
+  
+  .items-list li {
+    padding: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .items-list li:hover {
+    background-color: rgba(79, 70, 229, 0.05);
+  }
+  
+  .items-list li.active {
+    background-color: #e0e7ff;
+  }
+  
+  .items-list h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1f2937;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .items-list p {
+    font-size: 0.875rem;
+    color: #6b7280;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .error-message {
+    padding: 1rem;
+    color: #ef4444;
+    text-align: center;
+  }

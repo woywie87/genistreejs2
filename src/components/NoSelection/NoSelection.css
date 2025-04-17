@@ -1,0 +1,38 @@
+/* src/components/NoSelection/NoSelection.css */
+.no-selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1.5rem;
+    background-color: #f9fafb;
+    text-align: center;
+  }
+  
+  .info-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: #e0e7ff;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .info-icon svg {
+    color: #4f46e5;
+  }
+  
+  .no-selection h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1f2937;
+  }
+  
+  .no-selection p {
+    color: #6b7280;
+    max-width: 20rem;
+  }
